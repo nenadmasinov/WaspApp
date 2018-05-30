@@ -31,8 +31,8 @@ export default class App extends Component<Props> {
     return (
       <View style={styles.container}>
       <StatusBar
-        backgroundColor="#4f6d7a"
-        barStyle="light-content"
+        backgroundColor="#FFFFFF"
+        barStyle="dark-content"
         />
         <Text style={styles.welcome}>
           Welcome to React Native!
@@ -53,17 +53,17 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#4f6d7a',
+    backgroundColor: '#FFFFFF',
   },
   welcome: {
     fontSize: 20,
     textAlign: 'center',
     margin: 10,
-    color: '#F5FCFF'
+    color: '#000000'
   },
   instructions: {
     textAlign: 'center',
-    color: '#F5FCFF',
+    color: '#000000',
     marginBottom: 5,
   },
 });
