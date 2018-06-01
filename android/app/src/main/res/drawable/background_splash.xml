@@ -3,9 +3,8 @@
     <item
         android:drawable="@color/blue"/>
 
-    <item
-        android:width="200dp"
-        android:height="200dp"
-        android:drawable="@mipmap/wasp"
-        android:gravity="center" />
+    <!--<item android:width="200dp"-->
+          <!--android:height="200dp"-->
+          <!--android:drawable="@drawable/wasp"-->
+          <!--android:gravity="center" />-->
 </layer-list>
